@@ -1,24 +1,3 @@
-/* body{
-    background: url(./test-pic-01.jpg);
-} */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,800&display=swap');
-
-html {
-    font-family: 'Open Sans', sans-serif;
-} */
-
-/* body::after {  ทำให้ body สีจางลง */
-    /* content: "";
-    background: url(./test-pic-01.jpg);
-    opacity: 0.2;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  } */
 
 .card {
     display: inline-block;
@@ -28,7 +7,7 @@ html {
     margin: 5px;
     overflow: hidden;
     /* font-size: 0; */  /* วิธีที่ 2 -  ตั้ง font-size: 0px;*/
-    background-color: peachpuff;   
+    background-color: rgb(185, 239, 255);   
     
 }
 .container {
@@ -47,27 +26,3 @@ img {
     float: left;
 
 }
-/* .card > img {
-    display: block;
-    border-radius: 5px 5px 0 0;
-    width: 100%;
-    margin-bottom: -4px;
-    
-} */
-/* .container {
-    padding: 2px 16px;
-    text-align: center;
-    background-color:#ffd9b8cc;
-    color: #eb6d00cc;
-    
-}
-.container h4 {
-    font-weight: 300;
-} */
-
-/*
-    วิธีแก้ gap ระหว่างรูปภาพกับกล่อง
-    https://css-tricks.com/fighting-the-space-between-inline-block-elements/
-
-    ถ้าใส่ strong ไว้ ตัว weight ไม่ทำงาน (strong ใกล้สุดเลยทำงาน)
-*/
